@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 //connect to socket
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://yixchat-app.herokuapp.com",
     methods: ["POST", "GET"],
   },
 });
