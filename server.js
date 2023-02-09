@@ -37,6 +37,8 @@ io.on("connection", (socket) => {
 });
 
 //listen to PORT
+
+console.log('hello world')
 const PORT = process.env.PORT || 9000;
 server.listen(PORT, () => {
   console.log("server listenning on port " + PORT);
